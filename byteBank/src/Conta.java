@@ -3,4 +3,8 @@ public class Conta {
     int agencia;
     int numero;
     String titular;
+
+    public void depositar(double valor){
+        this.saldo += valor;
+    }
 }
